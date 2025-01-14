@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>iphone 14 pro</title>
     <link rel="stylesheet" href="css/spinner.css">
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
 </head>
 <body>
     <header class="header">
@@ -27,16 +28,15 @@
                         <a class="menu-link" href="#">Що нового</a>
                     </li>
                     <li class="menu-item">
-                        <a class="menu-link" href="#">Колір</a>
+                        <a class="menu-link" href="#">Пірат</a>
                     </li>
                     <li class="menu-item">
                         <a class="menu-link" href="#">Замовити</a>
                     </li>
                 </ul>
                 <a class="logo">
-                    <img class="logo-img" src="img/logo.svg" alt="логотип сайта">
+                    <img class="logo-img" src="img/Sea_of_thieves_logo.webp" alt="логотип сайта">
                 </a>
-                <a class="phone" href="tel:380504565656">+38 050-456-56-56</a>
             </nav>
         </div>
     </header>
@@ -44,93 +44,96 @@
     <main class="main">
         <section class="headline">
             <div class="container">
-                <h1 class="title">IPHONE 14 PRO</h1>
-                <img class="headline-img" src="img/iphone.png" alt="IPHONE 14 PRO">
+                <h1 class="title">Sea of Thievses</h1>
+                <img class="headline-img" src="img/sea-of-thieves-a-pirates-life-4k-uhdpaper.com-564.1_a-thumbnail.jpg" alt="IPHONE 14 PRO">
                 <a class="headline-btn" href="#">ОБРАТИ</a>
             </div>
         </section>
+        <section class="slider">
+            <div class="slider-container">
+                <div class="slide active" style="background-image: url('img/action-adventure-fantasy-fighting-wallpaper-preview.jpg');"></div>
+                <div class="slide" style="background-image: url('img/654b04c2d1005f91be6e6a4950e53637.jpg');"></div>
+                <div class="slide" style="background-image: url('img/wallpapersden.com_sea-of-thieves-tall-tales_1920x1080.jpg');"></div>
+                <div class="slide" style="background-image: url('img/sea_of_thieves_screenshot_7.jpg');"></div>
+                <div class="slide" style="background-image: url('img/HD-wallpaper-video-game-sea-of-thieves.jpg');"></div>
+                <div class="slide" style="background-image: url('img/1118352.jpg');"></div>
+            </div>
+            <button class="slider-button prev" aria-label="Попередній слайд">&#10094;</button>
+            <button class="slider-button next" aria-label="Наступний слайд">&#10095;</button>
+        </section>        
         <section class="new">
             <div class="container">
                 <h2 class="new-title">ЩО НОВОГО</h2>
                 <div class="new-info">
                     <div class="new-text">
                         <p>
-                            Усі моделі оснащені однокристальною системою A16 Bionic, 48-мегапіксельною основною камерою та екранами ProMotion із захистом Ceramic Shield і частотним діапазоном 1 - 120 Гц, а також прискореною пам'яттю LPDDR5. Дизайн лінійки оновлений, на фронтальній панелі смартфонів два вирізи.                        </p>
+                            Тиждень Легенд — з понеділка, 2 грудня, до понеділка, 9 грудня. Досвідчені моряки отримають справжнє задоволення під час наступного Тижня Легенд. Отримуйте подвійне золото та репутацію за передання скарбів Фортуни Афіни, шукайте Легендарні повідомлення в пляшках і виконуйте Завдання всередині, щоб здобути нагороди (та розблокувати тату "Життя Легенди"). Виконуйте Легендарні щоденні завдання для додаткових виплат також!
+                         </p>
                         <p>
-                            Усі iPhone 14 у США продаватимуться без лотка для SIM-карт: виробник заявляє, що поліпшена технологія eSIM дасть змогу перенести старі електронні сім-карти на нові смартфони.                          </p>
+                            Святкові декорації — з неділі, 1 грудня. Почніть грудень із належного святкового настрою, адже форпости Sea of Thieves набувають святкового вигляду!
+                        </p>
                         <p>
-                            Оновлено фронтальну камеру (вона забезпечена автофокусом і швидше розпізнає користувача в умовах недостатньої освітленості) і сенсор основної камери.                        </p>
-                        <b>
-                            iPhone 14 Pro вийшов у новому дизайні - без фірмового «чубчика». Також в асортименті з'явився новий колір. У смартфоні, на відміну від «звичайних» 14-х айфонів, встановлений процесор A16 Bionic, який може за секунду виконувати 4 трлн операцій з фото.                        </b>
+                            Як ми вирушаємо у грудень, Sea of Thieves наповнюється новими пригодами та святковою атмосферою! Від захоплюючих подій до абсолютно нових можливостей — на вас чекає безліч активностей, які змусять вирушити в подорож у цей сезон: готуйтеся до святкових випробувань, унікальних нагород і заходів для спільноти, щоб завершити рік із розмахом.                        
+                        </p>
                     </div>
-                    <img class="img-new" src="img/iphone-news.jpg" alt="iphone">
+                    <img class="img-new" src="./img/sea-of-thieves-patch-notes-2-0-21-5001-1611843546452.webp" alt="iphone">
                 </div>
             </div>
         </section>
         <section class="color">
             <div class="container">
-                <h2 class="color-title">ОБЕРИ СВІЙ КОЛІР</h2>
+                <h2 class="color-title">ОБЕРИ СВОГО ПІРАТА</h2>
                 <div id="spinner" class="spinner"></div>
                 <div class="selected-color">
-                    <img id="selected-color-img" src="img/color-1.jpg" alt="Выбранный цвет">
-                    <h3 id="selected-color-name">Silver</h3>
-                    <p id="selected-color-description">Серебристый</p>
-                </div>
-                <ul class="color-list">
-                    <li class="color-item" data-color="Silver" data-img="img/color-1.jpg" data-desc="Серебристый">
-                        <img class="slider-img" src="img/color-1.jpg" alt="Silver">
-                        <h3>Silver</h3>
-                        <p>Серебристый</p>
-                    </li>
-                    <li class="color-item" data-color="Deep purple" data-img="img/color-2.jpg" data-desc="Темно фіолетовий">
-                        <img class="slider-img" src="img/color-2.jpg" alt="Deep purple">
-                        <h3>Deep purple</h3>
-                        <p>Темно фіолетовий</p>
-                    </li>
-                    <li class="color-item" data-color="Gold" data-img="img/color-3.jpg" data-desc="Золотий">
-                        <img class="slider-img" src="img/color-3.jpg" alt="Gold">
-                        <h3>Gold</h3>
-                        <p>Золотий</p>
-                    </li>
-                    <li class="color-item" data-color="Space Black" data-img="img/color-4.jpg" data-desc="Космічний чорний">
-                        <img class="slider-img" src="img/color-4.jpg" alt="Space Black">
-                        <h3>Space Black</h3>
-                        <p>Космічний чорний</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
+                    <img id="selected-color-img" src="./img/1521811322186392737.jpg" alt="Выбранный цвет">
+                   
+                    <ul class="color-list">
+                        <li class="color-item" data-color="Silver" data-img="./img/2523828101_preview_Season_3_Male1.png" data-desc="Серебристый">
+                            <h3>СЛАВНИЙ МИСЛИВЕЦЬ</h3>
+ 
+                            <button class="color-btn" data-index="1"></button>
+                        </li>
+                        <li class="color-item" data-color="Deep purple" data-img="img/2664877220_preview_BorealCostume_Stage01_female_Alt.png" data-desc="Темно фіолетовий">
+                            <h3>ТАЄМНИЧА ЧАКЛУНКА</h3>
+
+                            <button class="color-btn" data-index="2"></button>
+                        </li>
+                        <li class="color-item" data-color="Gold" data-img="img/2751249115_preview_Belle_Lantern_Idle_V2+Eyes.png" data-desc="Золотий">
+                            <h3>ДУХ ПОМСТИ</h3>
+                            <button class="color-btn" data-index="3"></button>
+                        </li>
+                    </ul>
         <section class="contacts">
             <div class="container">
                 <div class="contacts-inner">
-                    <form class="contacts-form" action="#">
-                        <h2 class="contacts-title"> 
-                            ХОЧЕШ IPHONE 14 PRO?</h2>
-                        <input class="contacts-input" type="text" placeholder="Ваше ім'я"> 
+                    <form class="contacts-form" action="#" id="contacts-form">
+                        <h2 class="contacts-title">
+                            ХОЧЕШ ЗІГРАТИ?
+                        </h2>
+                        <input class="contacts-input" type="text" id="name" placeholder="Ваше ім'я">
+                        <input class="contacts-input" type="text" id="surname" placeholder="Ваше прізвище">
+                        <input class="contacts-input" type="email" placeholder="Email">
                         <input class="contacts-input" type="tel" placeholder="Номер телефона">
-                        <p> 
-                            Найближчим часом наш менеджер зв'яжеться з Вами
-                            </p>
-                        <button type="submit"> 
+                        <textarea class="contacts-input" placeholder="Ваш коментар"></textarea>
+                        
+                        <button type="submit" class="animated-btn">
                             ЗАМОВИТИ
-                            </button>
+                        </button>
                     </form>
-                    <img src="img/contact.jpg" alt="iphone">
                 </div>
             </div>
         </section>
+        <script src="validation.js"></script>  
     </main>
     <footer class="footer">
         <div class="container">
             <div class="footer-inner">
                 <a class="footer-link" href="#"> 
                     Політика конфіденційності
-                    </a>
-                <a class="logo">
-                    <img class="logo-img" src="img/logo.svg" alt="логотип сайта">
                 </a>
-
-                <a class="phone" href="tel:380504565656">+38 050-456-56-56</a>
+                <a class="logo">
+                    <img class="logo-img" src="img/Sea_of_thieves_logo.webp" alt="логотип сайта">
+                </a>
             </div>
         </div>
     </footer>
